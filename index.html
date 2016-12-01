@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bands Battle</title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+	<div id="wrapper">
+	
+		<header>Battle of the Bands</header>
+
+		<article>
+			<p>You will be given a random number at the start of the game.</p>
+			
+			<p>There are four bands below. By clicking on a band you
+			will add a specific amount of points to your total score.</p>
+			
+			<p>You win the game by matching your total score to random
+			number, you will lose the game if your total score goes above
+			the random number.</p>
+			
+			<p>The value of each band is hidden from you until you click 
+			on it.</p>
+			
+			<p>Each time when the game starts, the game will change the 
+			values of each band.</p>
+		</article>
+
+		<div id="computer-score">
+		<p>0</p>
+		</div>
+		
+		
+		<div id="wins"></div>
+
+
+		<div id="pictures">
+			
+			<img class="band-img" id="adtr" src="assets/images/adtr.PNG" alt="">
+
+			<img class="band-img" id="blink" src="assets/images/blink.PNG" alt="">
+
+			<img class="band-img" id="atl" src="assets/images/atl.PNG" alt="">
+
+			<img class="band-img" id="parkway" src="assets/images/parkway.PNG" alt="">
+
+		</div>
+
+		<div id="user-score"><p>Your total score is: 0</p></div>
+	
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+
+</html>

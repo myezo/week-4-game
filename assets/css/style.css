@@ -1,0 +1,79 @@
+#wrapper{
+	margin: 10px;
+}
+
+header{
+	background-color: #2d2d2d;
+	padding: 20px;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	width: 350px;
+	text-align: center;
+	border: 2px solid blue;
+}
+
+.band-img{
+	width: 250px;
+	height:150px;
+	border: 2px solid blue;
+}
+
+article{
+	width: 450px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #727272;
+	color: #ffffff;
+}
+
+#computer-score{
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #003fa5;
+	color: #ffffff;
+	font-size: 25px;
+	width: 65px;
+	text-align: center;
+}
+
+#losses-text{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#losses{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#wins-text{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#wins{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#score-text{
+	margin-top: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100px;
+	padding: 10px;
+}
+
+#user-score{
+	margin-top: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+}
